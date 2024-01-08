@@ -12,8 +12,8 @@
 
         public function matchRoute(){
             $url = explode('/', URL);
-            $this->controller = !empty($url[0]) ? $url[0] : 'main';
-            $this->method = !empty($url[1]) ? $url[1] : 'home';
+            $this->controller = !empty($url[0]) ? $url[0] : 'register';
+            $this->method = !empty($url[1]) ? $url[1] : 'index';
 
             $this->controller = $this->controller . 'Controller';
             require_once(__DIR__ . "/App/Controllers/" . $this->controller . ".php");

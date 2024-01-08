@@ -1,7 +1,7 @@
 
 <div class="form col-11 col-md-8 col-lg-6 col-xl-5 mx-auto p-4 border bg-light mt-5">
     <h2>Sign Up</h2>
-        <form action="" method="post" enctype="multipart/form-data" method="post">
+        <form action="register/" method="post" enctype="multipart/form-data" method="post">
             <div class="form-group mt-2">
                 <label for="username">Username:</label>
                 <input type="text" class="form-control" id="username" name="username" required>

@@ -1,7 +1,12 @@
-<?php 
-    require_once(__DIR__ . "/config.php");
-    require_once(__DIR__ . "/Router.php");
+<?php
 
-    $router = new Router();
-    $router->run();
-?>
+require_once(__DIR__ . "/vendor/autoload.php");
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/');
+$dotenv->load();
+// $dotenv->required([
+//     'API_KEY',
+// ]);
+
+$router = new Router();
+$router->run();
