@@ -1,2 +1,16 @@
 mail: test.daw@cirvianum.cat
 pass app: iquv lzda nudx bgup
+
+- App/
+  - Controllers/
+  - Models/
+  - Views/
+  - Core/
+    - Router.php
+    - config.php
+
+- Public/
+  - css/
+  - js/
+  - images/
+  - index.php

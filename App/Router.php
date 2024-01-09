@@ -16,7 +16,7 @@
             $this->method = !empty($url[1]) ? $url[1] : 'index';
 
             $this->controller = $this->controller . 'Controller';
-            require_once(__DIR__ . "/App/Controllers/" . $this->controller . ".php");
+            require_once(__DIR__ . "/Controllers/" . $this->controller . ".php");
         }
 
         public function run(){
